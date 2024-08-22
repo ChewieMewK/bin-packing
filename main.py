@@ -25,6 +25,3 @@ if __name__ == "__main__":
     if not plotting:
         initialize_plot(C, rects, 5)
         plot_configuration(C, last_frame=True)
-    
-
-

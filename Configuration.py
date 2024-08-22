@@ -69,7 +69,7 @@ class Configuration:
         self.L = ccoas
 
     def get_concave_corners(self) -> list[tuple[tuple,PointType]]:
-        concave_corners: list[tuple(tuple,PointType)] = []
+        concave_corners: list[tuple[tuple,PointType]] = []
 
         for corner in self.get_all_corners():
             corner_type = self.get_corner_type(corner)
